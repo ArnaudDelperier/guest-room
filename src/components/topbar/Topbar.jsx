@@ -11,7 +11,7 @@ function Topbar({menuOpen, setMenuOpen}) {
                 <ul className="navbar">
                     <li className="navbar_item">Chambres</li>
                     <li className="navbar_item">Contact</li>
-                    <li className="navbar_item">Se connecter</li>
+                    <li className="navbar_item">Plan</li>
                 </ul>
                 <div className="burger" onClick={() => setMenuOpen(!menuOpen)}>
                     <span className="line1"></span>

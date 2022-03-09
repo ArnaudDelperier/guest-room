@@ -6,7 +6,7 @@ function Menu({ menuOpen, setMenuOpen }) {
         <ul>
             <li>Chambres</li>
             <li>Contact</li>
-            <li>Se connecter</li>
+            <li>Plan</li>
         </ul>
     </div>
   )

@@ -2,10 +2,11 @@ import { useState } from "react";
 
 import './App.css'
 
-import Home from './components/home/Home'
-import Roomlist from './components/roomlist/Roomlist'
 import Topbar from './components/topbar/Topbar'
 import Menu from './components/menu/Menu';
+import Home from './components/home/Home'
+import Roomlist from './components/roomlist/Roomlist'
+import Contact from "./components/contact/Contact";
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Home />
       <Roomlist />
+      <Contact />
     </div>
   )
 }
