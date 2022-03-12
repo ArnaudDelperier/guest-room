@@ -1,0 +1,27 @@
+.map-container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+
+    .adress {
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        p {
+            margin: 20px;
+            font-size: 1.2rem;
+            text-align: center;
+        }
+    }
+
+    .map {
+        flex: 7;
+        width: 50%;
+        height: 300;
+        border: 0;
+    }
+}
+

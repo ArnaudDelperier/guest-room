@@ -7,6 +7,7 @@ import Menu from './components/menu/Menu';
 import Home from './components/home/Home'
 import Roomlist from './components/roomlist/Roomlist'
 import Contact from "./components/contact/Contact";
+import Map from "./components/map/Map";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Home />
       <Roomlist />
       <Contact />
+      <Map></Map>
     </div>
   )
 }
